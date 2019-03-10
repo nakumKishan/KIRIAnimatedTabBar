@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		210B17FE2235096E00964A08 /* KIRIAnimatedTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 210B17FC2235096E00964A08 /* KIRIAnimatedTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210B180522350B7800964A08 /* KIRIAnimatedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210B180422350B7800964A08 /* KIRIAnimatedTabBar.swift */; };
+		210B1807223514D500964A08 /* KIRIAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210B1806223514D500964A08 /* KIRIAnimationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		210B17F92235096E00964A08 /* KIRIAnimatedTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KIRIAnimatedTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		210B17FC2235096E00964A08 /* KIRIAnimatedTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIRIAnimatedTabBar.h; sourceTree = "<group>"; };
 		210B17FD2235096E00964A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210B180422350B7800964A08 /* KIRIAnimatedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIRIAnimatedTabBar.swift; sourceTree = "<group>"; };
+		210B1806223514D500964A08 /* KIRIAnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIRIAnimationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		210B17FB2235096E00964A08 /* KIRIAnimatedTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				210B180422350B7800964A08 /* KIRIAnimatedTabBar.swift */,
+				210B1806223514D500964A08 /* KIRIAnimationManager.swift */,
 				210B17FC2235096E00964A08 /* KIRIAnimatedTabBar.h */,
 				210B17FD2235096E00964A08 /* Info.plist */,
 			);
@@ -95,6 +101,7 @@
 				TargetAttributes = {
 					210B17F82235096E00964A08 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210B180522350B7800964A08 /* KIRIAnimatedTabBar.swift in Sources */,
+				210B1807223514D500964A08 /* KIRIAnimationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 		210B18022235096E00964A08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kishan.KIRIAnimatedTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +297,7 @@
 		210B18032235096E00964A08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
