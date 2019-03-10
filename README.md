@@ -5,7 +5,8 @@ Library made in Swift helps to add various type of animations to your TabbarCont
 
 
 # Preview
-![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/8666236/54086978-9b2a0380-4374-11e9-929a-b642a351496d.gif)
+![final](https://user-images.githubusercontent.com/8666236/54088791-ac304000-4387-11e9-95d0-05a3ceb09e56.gif)
+
 
 # Installation
 Add KIRIAnimatedTabBar using Cocoapods
